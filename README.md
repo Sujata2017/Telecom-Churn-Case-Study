@@ -83,7 +83,6 @@ This is one of the most important parts of data preparation since good features 
 
 2. Filter high-value customers
 As mentioned above, you need to predict churn only for the high-value customers. Define high-value customers as follows: Those who have recharged with an amount more than or equal to X, where X is the 70th percentile of the average recharge amount in the first two months (the good phase).
-
 After filtering the high-value customers, you should get about 29.9k rows.
 
 3. Tag churners and remove attributes of the churn phase
